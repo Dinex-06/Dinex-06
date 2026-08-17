@@ -1,0 +1,12 @@
+<svg width="1200" height="170" viewBox="0 0 1200 170" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="f" x1="0" y1="0" x2="1200" y2="170">
+<stop stop-color="#05070D"/>
+<stop offset=".55" stop-color="#111827"/>
+<stop offset="1" stop-color="#0E7490"/>
+</linearGradient>
+</defs>
+<rect width="1200" height="170" rx="24" fill="url(#f)"/>
+<text x="600" y="78" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Build something useful. Understand what you build.</text>
+<text x="600" y="110" text-anchor="middle" fill="#67E8F9" font-family="monospace" font-size="14" letter-spacing="2">DINESH KUMAR G  •  DINEX-06</text>
+</svg>

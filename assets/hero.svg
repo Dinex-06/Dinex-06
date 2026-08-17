@@ -1,0 +1,51 @@
+<svg width="1200" height="390" viewBox="0 0 1200 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="390" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#05070D"/>
+    <stop offset="0.48" stop-color="#0B1220"/>
+    <stop offset="1" stop-color="#0C4A6E"/>
+    <animate attributeName="x1" values="0;180;0" dur="12s" repeatCount="indefinite"/>
+  </linearGradient>
+  <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(970 65) rotate(125) scale(310 420)">
+    <stop stop-color="#22D3EE" stop-opacity=".28"/>
+    <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(170 330) rotate(-35) scale(300 350)">
+    <stop stop-color="#6366F1" stop-opacity=".22"/>
+    <stop offset="1" stop-color="#6366F1" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M36 0H0V36" stroke="#94A3B8" stroke-opacity=".07"/>
+  </pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="35"/></filter>
+</defs>
+
+<rect width="1200" height="390" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="390" rx="28" fill="url(#grid)"/>
+<ellipse cx="970" cy="65" rx="300" ry="210" fill="url(#glowA)" filter="url(#blur)">
+  <animate attributeName="opacity" values=".55;.9;.55" dur="7s" repeatCount="indefinite"/>
+</ellipse>
+<ellipse cx="170" cy="330" rx="260" ry="180" fill="url(#glowB)" filter="url(#blur)">
+  <animate attributeName="opacity" values=".75;.35;.75" dur="9s" repeatCount="indefinite"/>
+</ellipse>
+
+<circle cx="1050" cy="105" r="3" fill="#67E8F9">
+  <animate attributeName="cy" values="105;90;105" dur="4s" repeatCount="indefinite"/>
+</circle>
+<circle cx="1090" cy="150" r="2" fill="#A5B4FC">
+  <animate attributeName="cx" values="1090;1075;1090" dur="5s" repeatCount="indefinite"/>
+</circle>
+<circle cx="940" cy="285" r="2.5" fill="#38BDF8">
+  <animate attributeName="cy" values="285;300;285" dur="6s" repeatCount="indefinite"/>
+</circle>
+
+<text x="90" y="145" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="2">DINESH KUMAR G</text>
+<text x="94" y="188" fill="#A5F3FC" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" letter-spacing="3">SOFTWARE DEVELOPER  •  AI ENTHUSIAST  •  BUILDER</text>
+
+<rect x="94" y="225" width="520" height="1" fill="#67E8F9" fill-opacity=".35"/>
+<text x="94" y="265" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="17">Building practical software.</text>
+<text x="94" y="295" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="17">Learning systems from the fundamentals up.</text>
+<text x="94" y="325" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="17">Exploring AI, backend engineering &amp; modern web.</text>
+
+<text x="1110" y="350" text-anchor="end" fill="#64748B" font-family="monospace" font-size="12">BUILD • LEARN • IMPROVE</text>
+</svg>
